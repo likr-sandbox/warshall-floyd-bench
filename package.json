@@ -1,0 +1,26 @@
+{
+  "name": "apsp-bench",
+  "version": "1.0.0",
+  "description": "This repository reports benchmarks for Rust implementations of the Warshall-Floyd algorithm compared under the following conditions:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d target/criterion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likr-sandbox/warshall-floyd-bench.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likr-sandbox/warshall-floyd-bench/issues"
+  },
+  "homepage": "https://github.com/likr-sandbox/warshall-floyd-bench#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
